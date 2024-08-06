@@ -9,9 +9,6 @@ import matplotlib.pyplot as plt
 
 u = mda.Universe("md.gro", "md.xtc")
 
-
-
-
 def Hbond_interaction_profile( donor, hydrogen, acceptor, cutoff_distance=3.5, angle_cutoff=120):
     """
     This function calculates the H-bond interaction profile between two Serine residues.
